@@ -1,13 +1,14 @@
 
 
 // COMPONENTS
-import Announcement from "../../components/Announcement/Announcement";
+import CourseAnnoucement from "../../components/CourseAnnoucement/CourseAnnoucement";
+import CourseDescription from "../../components/CourseDescription/CourseDescription";
 import CourseTitle from "../../components/CourseTitle/CourseTitle";
 import Header from "../../components/Header/Header";
 
 const CursoFigma = () => {
     return (
-        <div className="flex flex-col items-center h-screen">
+        <div className="flex flex-col items-center bg-[#f7f7f7]">
             <Header />
             <CourseTitle
                 titulo="Curso de Figma para iniciantes"
@@ -17,7 +18,8 @@ const CursoFigma = () => {
                 avaliacao={4.7}
                 quantidadeAvaliacao={9899}
             />
-            <Announcement />
+            <CourseAnnoucement />
+            <CourseDescription />
         </div>
     );
 }
