@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo" alt="Logo da LearnUp" title='Logo da LearnUp' />
         <p>
           LearnUp
         </p>
@@ -15,7 +15,6 @@ const Home = () => {
           className="App-link"
           to="/curso-figma"
           target="_blank"
-          rel="noopener noreferrer"
         >
           Curso de Figma
         </Link>

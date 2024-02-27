@@ -1,7 +1,12 @@
+
+
+// COMPONENTS
+import Header from "../../components/Header/Header";
+
 const CursoFigma = () => {
     return ( 
         <div>
-            Curso Figma
+            <Header />
         </div>
     );
 }
