@@ -12,7 +12,7 @@ const Home = () => {
           LearnUp
         </p>
         <Link
-          className="App-link"
+          className="App-link underline"
           to="/curso-figma"
           target="_blank"
         >
