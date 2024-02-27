@@ -40,7 +40,7 @@ const Header = () => {
                         href="#"
                         className='font-bold text-[14px] md:text-[18px] hover:scale-105 cursor-pointer transition ease-in-out delay-150 duration-300 bg-[#2C3E50] text-[white] px-[24px] py-[12px] rounded'
                     >
-                            LOGIN
+                        LOGIN
                     </a>
                 </div>
             </nav>

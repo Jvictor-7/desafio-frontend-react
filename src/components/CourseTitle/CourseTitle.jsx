@@ -6,7 +6,7 @@ import StarIcon from '@mui/icons-material/Star';
 
 const CourseTitle = (props) => {
     return (
-        <div className="bg-[#2C3E50] text-white w-full max-w-[1440px]">
+        <section className="bg-[#2C3E50] text-white w-full max-w-[1440px]">
             <div className="py-[64px] pl-[48px] pr-[48px] flex flex-col items-center md:flex-row gap-[72px] max-w-[1000px] ">
                 <div className="w-[300px] md:w-[600px]">
                     <img src={figmaLogo} alt="Logo do Figma" className="w-full" />
@@ -33,7 +33,7 @@ const CourseTitle = (props) => {
                 </div>
 
             </div>
-        </div>
+        </section>
     );
 }
 

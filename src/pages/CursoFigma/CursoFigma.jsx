@@ -1,6 +1,7 @@
 
 
 // COMPONENTS
+import Announcement from "../../components/Announcement/Announcement";
 import CourseTitle from "../../components/CourseTitle/CourseTitle";
 import Header from "../../components/Header/Header";
 
@@ -16,6 +17,7 @@ const CursoFigma = () => {
                 avaliacao={4.7}
                 quantidadeAvaliacao={9899}
             />
+            <Announcement />
         </div>
     );
 }
