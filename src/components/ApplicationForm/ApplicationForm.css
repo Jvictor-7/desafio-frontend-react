@@ -1,0 +1,42 @@
+.flutuando {
+    position: fixed;
+    top: 140px;
+    right: 280px;
+    z-index: 1000;
+    transition: top 0.5s ease;
+}
+
+@media only screen and (max-width: 1488px) {
+    .flutuando {
+        position: initial;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1489px) and (max-width: 1860px) {
+
+    .flutuando,
+    .stop {
+        position: fixed;
+        right: 100px;
+        z-index: 1000;
+        transition: top 0.5s ease;
+    }
+
+    .flutuando {
+        top: 140px;
+    }
+
+    .stop {
+        top: -140px;
+    }
+}
+
+@media only screen and (min-width: 1921px) {
+    .flutuando {
+        position: initial;
+    }
+}

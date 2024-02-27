@@ -19,10 +19,8 @@ const CourseDescription = () => {
         carregarAvaliacoes();
     }, [setListaAvalicoes]);
 
-    console.log(listaAvaliacoes)
-
     return (
-        <section className="bg-white w-full max-w-[1440px] py-[24px] px-[48px] flex flex-col gap-[62px]">
+        <section className="bg-white w-full max-w-[1440px] py-[24px] pb-[64px] px-[48px] flex flex-col gap-[62px]">
             <div className="max-w-[850px] text-[#2C3E50]">
                 <h1 className="font-bold text-[32px]">
                     Curso de Figma para Iniciantes: Descubra o Mundo do
@@ -71,7 +69,7 @@ const CourseDescription = () => {
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-[24px]'>
                     {
                         listaAvaliacoes.map((avaliacao, index) => (
-                            <div className='max-w-[400px] flex gap-[24px]'>
+                            <div key={index} className='max-w-[400px] flex gap-[24px]'>
                                 <div className='w-[80px] h-[80px] rounded-full bg-[#2C3E50] flex justify-center items-center text-white font-bold text-[24px]'>
                                     {
                                         avaliacao.usuario.split(' ').map(nome => nome.charAt(0)).join('')

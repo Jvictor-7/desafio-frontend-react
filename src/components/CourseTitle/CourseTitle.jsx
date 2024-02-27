@@ -27,7 +27,7 @@ const CourseTitle = (props) => {
                                 <StarIcon style={{ color: 'orange' }} />
                                 <StarIcon style={{ color: 'orange' }} />
                             </div>
-                            <p> <span className="text-[#FF9842] font-bold">{props.avaliacao}</span> ({props.quantidadeAvaliacao} avaliações) </p>
+                            <p> <span className="text-[#FF9842] font-bold">{props.avaliacao.toFixed(1)}</span> ({props.quantidadeAvaliacao} avaliações) </p>
                         </div>
                     </div>
                 </div>

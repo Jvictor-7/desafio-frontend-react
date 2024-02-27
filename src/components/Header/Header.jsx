@@ -1,13 +1,11 @@
 import { Link } from 'react-router-dom';
 
-import './Header.css'
-
 // ASSETS
 import learnupLogo from "../../assets/learnup-logo.png"
 
 const Header = () => {
     return (
-        <header className="w-full flex justify-center items-center mx-auto max-w-[1440px]">
+        <header id="header" className="w-full flex justify-center items-center mx-auto max-w-[1440px]">
             <nav className='flex w-full flex-wrap gap-[24px] justify-center md:justify-between items-center px-[24px] py-[12px] shadow'>
                 <Link className="flex w-[200px] hover:scale-105 transition ease-in-out delay-150 duration-300" to="/">
                     <img
