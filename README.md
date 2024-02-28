@@ -3,17 +3,18 @@
 > Este desafio teve como intuito ``Prototipar e desenvolver uma landing page voltada para inscrição de cursos online``.
 - A prototipação foi feita com o Figma, e o desenevolvimento front-end foi feito em React.
 - O [Deploy do Projeto](https://desafiofrontendjvcl.netlify.app/) foi feito através do Netlify.
+- [Figma do Projeto](https://www.figma.com/file/73xcqXyaoxbRnt6rEVAitB/Desafio-Front-end%2FDesign-UI%2FUX?type=design&node-id=0%3A1&mode=design&t=bDGQODGT2BozjBa4-1)
 
 ## 🚀 Metas Atingidas
 - [x] A página precisa ter: Nome do Curso, Descrição do Curso, Horas de Duração, Formulário de Inscrição
 - [x] Responsividade
 - [x] Design Atrativo e Layout da Página
-- [x] Utilização do [Figma](https://www.figma.com/file/73xcqXyaoxbRnt6rEVAitB/Desafio-Front-end%2FDesign-UI%2FUX?type=design&node-id=0%3A1&mode=design&t=bDGQODGT2BozjBa4-1)
+- [x] Utilização do Figma
 
 ## 💻 Tecnologias Utilizadas
-- [React](https://react.dev/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Figma](https://figma.com/)
+- React (Utilizei bibliotecas como: Toastify e Material-UI)
+- Tailwind CSS
+- Figma
 - JavaScript
 - CSS
 - HTML
