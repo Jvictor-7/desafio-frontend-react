@@ -12,7 +12,8 @@ const ApplicationForm = () => {
     const [formData, setFormData] = useState({
         nome: "",
         email: "",
-        telefone: ""
+        telefone: "",
+        displayTelefone: ""
     })
 
     // Função para formatar o telefone
