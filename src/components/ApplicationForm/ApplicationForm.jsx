@@ -7,7 +7,7 @@ import { useEffect, useState } from 'react';
 
 const ApplicationForm = () => {
     return (
-        <form className= "flutuando flex flex-col border-[1px] border-solid border-[#BDC3C7] h-[500px] w-[400px] shadow-lg rounded bg-white py-[48px] px-[24px]">
+        <form className= "flutuando flex flex-col border-[1px] border-solid border-[#BDC3C7] h-[500px] w-[400px] md:m-[12px] shadow-lg rounded bg-white py-[48px] px-[24px]">
             <div className='flex justify-between gap-[48px] text-[#2C3E50]'>
                 <p>Início: 07 de Abril</p>
                 <p>Restam: 10 vagas</p>

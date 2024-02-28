@@ -19,7 +19,6 @@ const CursoFigma = () => {
                 avaliacao={5.0}
                 quantidadeAvaliacao={9899}
             />
-            <ApplicationForm />
             <CourseAnnoucement />
             <CourseDescription />
             <Footer />

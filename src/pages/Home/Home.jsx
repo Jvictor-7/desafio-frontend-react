@@ -8,8 +8,14 @@ const Home = () => {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="Logo da LearnUp" title='Logo da LearnUp' />
-        <p>
-          LearnUp
+        <h1 className='font-bold'>
+          Learn<span className='text-[#FF9842]'>Up</span>
+        </h1>
+        <p className='px-[24px]'>
+          Este projeto foi desenvolvido por João Victor Cavalcante Lima com o intuito de completar o Desafio Front-end/Design UI/UX
+        </p>
+        <p className='px-[24px] text-[#95A5A6]'>
+          "Prototipar e desenvolver uma landing page voltada para inscrição de cursos online"
         </p>
         <Link
           className="App-link underline"
