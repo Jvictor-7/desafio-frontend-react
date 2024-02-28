@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
-import StarIcon from '@mui/icons-material/Star';
 import { Link } from 'react-router-dom';
+
+// ASSETS
+import StarIcon from '@mui/icons-material/Star';
 
 const CourseDescription = () => {
     const [listaAvaliacoes, setListaAvalicoes] = useState([])
@@ -82,11 +84,11 @@ const CourseDescription = () => {
                                     </h2>
                                     <div className='flex items-center'>
                                         <div>
-                                            <StarIcon style={{ color: 'orange' }} />
-                                            <StarIcon style={{ color: 'orange' }} />
-                                            <StarIcon style={{ color: 'orange' }} />
-                                            <StarIcon style={{ color: 'orange' }} />
-                                            <StarIcon style={{ color: 'orange' }} />
+                                            <StarIcon style={{ color: 'orange' }} alt="Ícone de Estrela" title="Ícone de Estrela" />
+                                            <StarIcon style={{ color: 'orange' }} alt="Ícone de Estrela" title="Ícone de Estrela" />
+                                            <StarIcon style={{ color: 'orange' }} alt="Ícone de Estrela" title="Ícone de Estrela" />
+                                            <StarIcon style={{ color: 'orange' }} alt="Ícone de Estrela" title="Ícone de Estrela" />
+                                            <StarIcon style={{ color: 'orange' }} alt="Ícone de Estrela" title="Ícone de Estrela" />
                                         </div>
                                         <p>
                                             <span className="text-[#FF9842] font-bold">

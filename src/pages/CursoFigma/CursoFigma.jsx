@@ -1,11 +1,10 @@
 // COMPONENTS
+import Header from "../../components/Header/Header";
+import CourseTitle from "../../components/CourseTitle/CourseTitle";
 import CourseAnnoucement from "../../components/CourseAnnoucement/CourseAnnoucement";
 import CourseDescription from "../../components/CourseDescription/CourseDescription";
-import CourseTitle from "../../components/CourseTitle/CourseTitle";
-import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import Copyright from "../../components/Copyright/Copyright";
-import ApplicationForm from "../../components/ApplicationForm/ApplicationForm";
 
 const CursoFigma = () => {
     return (
@@ -22,7 +21,7 @@ const CursoFigma = () => {
             <CourseAnnoucement />
             <CourseDescription />
             <Footer />
-            <Copyright />
+            <Copyright assinatura="© 2024 João Victor Cavalcante Lima" />
         </div>
     );
 }
